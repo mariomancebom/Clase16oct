@@ -6,7 +6,7 @@ public class BubbleSort {
 		for (int i = 0; i < list.length; i++) {
 			for (int j = 0; j < list.length - 1 -i; j++) {
 				// Si es mayor el segundo lo cambiamos
-				if (list[j] > list[j + 1]) {
+				if (list[j] < list[j + 1]) {
 					// Permutacion de dos numeros
 					int temp = list[j];
 					list[j] = list[j + 1];
